@@ -1,0 +1,151 @@
+{ "data" : [{
+	"IErdat": "/Date(967821907000)/",
+	"Vbeln": "Vbeln 1",
+	"Netwr": 9.85,
+	"Bstnk": "Bstnk 1",
+	"Ernam": "Ernam 1",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%201')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%201')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1114269907000)/",
+	"Vbeln": "Vbeln 2",
+	"Netwr": 416.31,
+	"Bstnk": "Bstnk 2",
+	"Ernam": "Ernam 2",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%202')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%202')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1264173907000)/",
+	"Vbeln": "Vbeln 3",
+	"Netwr": 6671.92,
+	"Bstnk": "Bstnk 3",
+	"Ernam": "Ernam 3",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%203')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%203')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1509204307000)/",
+	"Vbeln": "Vbeln 4",
+	"Netwr": 2613.6,
+	"Bstnk": "Bstnk 4",
+	"Ernam": "Ernam 4",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%204')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%204')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1149175507000)/",
+	"Vbeln": "Vbeln 5",
+	"Netwr": 7960.43,
+	"Bstnk": "Bstnk 5",
+	"Ernam": "Ernam 5",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%205')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%205')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1224689107000)/",
+	"Vbeln": "Vbeln 6",
+	"Netwr": 2584.86,
+	"Bstnk": "Bstnk 6",
+	"Ernam": "Ernam 6",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%206')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%206')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1190129107000)/",
+	"Vbeln": "Vbeln 7",
+	"Netwr": 5101.49,
+	"Bstnk": "Bstnk 7",
+	"Ernam": "Ernam 7",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%207')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%207')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1157729107000)/",
+	"Vbeln": "Vbeln 8",
+	"Netwr": 7638.68,
+	"Bstnk": "Bstnk 8",
+	"Ernam": "Ernam 8",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%208')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%208')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1139239507000)/",
+	"Vbeln": "Vbeln 9",
+	"Netwr": 100.85,
+	"Bstnk": "Bstnk 9",
+	"Ernam": "Ernam 9",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%209')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%209')/DetailItems"
+		}
+	}
+}, {
+	"IErdat": "/Date(1405351507000)/",
+	"Vbeln": "Vbeln 10",
+	"Netwr": 8688.55,
+	"Bstnk": "Bstnk 10",
+	"Ernam": "Ernam 10",
+	"__metadata": {
+		"uri": "Ped_HeaderSet('Vbeln%2010')",
+		"type": "ZTRAINING_SALES_ORDER_J_SRV.Ped_Header"
+	},
+	"DetailItems": {
+		"__deferred": {
+			"uri": "Ped_HeaderSet('Vbeln%2010')/DetailItems"
+		}
+	}
+}]}

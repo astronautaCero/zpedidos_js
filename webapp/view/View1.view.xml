@@ -1,0 +1,45 @@
+<mvc:View controllerName="com.zpedidos.js.ZPEDIDOS_JS.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:l="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<IconTabBar id="idTopLevelIconTabBar" selectedKey="db" class="sapUIResponsiveContentPadding">
+							<items>
+								<IconTabFilter id="start" text="{i18n>gettingStartedFilter}" key="db">
+									<content>
+										<List id="lst" headerText="{i18n>ProductList}" items="{ path : 'modelData>/data', sorter : { path : 'Category', group : true } }"
+											growing="true" growingThreshold="5" growingScrollToLoad="false">
+											<headerToolbar>
+												<Toolbar>
+													<Title text="{i18n>searchHelp}"/>
+													<ToolbarSpacer/>
+													<SearchField width="50%" search="onFilterProduct"/>
+													<Button id="add_btn" icon="sap-icon://add" press="onAdd"/>
+												</Toolbar>
+											</headerToolbar>
+											<items>
+												<ObjectListItem title="{modelData>Vbeln}" number="{modelData>Netwr}" numberState="{= ${modelData>Netwr} > 500 ? 'Error' : 'Success'}"
+													intro="{modelData>Ernam}" press="onItemSelected" type="Active"/>
+											</items>
+										</List>
+										<Panel id="productDetail" headerText="{i18n>productDetailSelect}" visible="false">
+											<l:Grid>
+												<Text text="{i18n>productDetailPanelID}: {modelData>Vbeln}" />
+												<Text text="{i18n>productDetailPanelName}: {modelData>Ernam}"/>
+												<Text text="{i18n>productDetailPanelDescription}: {i18n>Description}"/>
+												<Text text="{i18n>productDetailPanelPrice}: {modelData>Netwr}"/>
+											</l:Grid>
+										</Panel>
+									</content>
+								</IconTabFilter>
+								<IconTabFilter></IconTabFilter>
+							</items>
+						</IconTabBar>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

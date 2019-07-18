@@ -1,0 +1,4 @@
+<mvc:View controllerName="com.zpedidos.js.ZPEDIDOS_JS.controller.App" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<App id="app"/>
+</mvc:View>
