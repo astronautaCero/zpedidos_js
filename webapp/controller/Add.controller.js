@@ -2,7 +2,7 @@ sap.ui.define([
 // 	"sap/ui/core/mvc/Controller",
 	"com/zpedidos/js/ZPEDIDOS_JS/controller/BaseController"
 ], function (BaseController) {
-	"use strict";
+	"use strict"; 
 
 	return BaseController.extend("com.zpedidos.js.ZPEDIDOS_JS.controller.Add", {
 
